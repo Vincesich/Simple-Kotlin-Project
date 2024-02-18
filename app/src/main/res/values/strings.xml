@@ -12,4 +12,7 @@
     <string name="confirmpassword">Confirm Password</string>
     <string name="registerbutton">Register</string>
     <string name="loginbutton">Login</string>
+    <string name="gotouserslistbutton">UsersList</string>
+    <string name="gotoaboutbutton">About</string>
+    <string name="gotohelpbutton">Help</string>
 </resources>
