@@ -9,6 +9,7 @@ class Dashboard : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.dashboard)
+
         val gotouserslistbutton = findViewById<Button>(R.id.gotouserslistbutton)
         gotouserslistbutton.setOnClickListener{
             val intent = Intent(this, UsersList::class.java)
