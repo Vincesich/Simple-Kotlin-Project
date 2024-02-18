@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Simple Kotlin Project</string>
+    <string name="gotologinpagebutton">Login</string>
+    <string name="gotoregisterpagebutton">Register</string>
+    <string name="email">Email</string>
+    <string name="firstname">FirstName</string>
+    <string name="lastname">LastName</string>
+    <string name="username">UserName</string>
+    <string name="city">City</string>
+    <string name="phonenumber">Phone</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="registerbutton">Register</string>
+    <string name="loginbutton">Login</string>
 </resources>
