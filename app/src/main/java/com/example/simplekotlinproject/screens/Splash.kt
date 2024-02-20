@@ -1,9 +1,10 @@
-package com.example.simplekotlinproject
+package com.example.simplekotlinproject.screens
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.simplekotlinproject.R
 
 class Splash: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

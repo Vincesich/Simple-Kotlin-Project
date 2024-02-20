@@ -1,10 +1,11 @@
 @file:Suppress("DEPRECATION")
 
-package com.example.simplekotlinproject
+package com.example.simplekotlinproject.screens
 
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.simplekotlinproject.R
 import com.example.simplekotlinproject.sqlite.UserData
 
 class UsersList : AppCompatActivity() {
