@@ -1,6 +1,6 @@
 # Simple Kotlin Project
 
-This is a simple Kotlin project that demonstrates basic functionality such as user registration, login, and displaying a list of registered users.
+This is a simple Kotlin project that demonstrates basic functionality such as user registration, login, fetching and  displaying a list of registered users from the integrated SQlite database.
 
 ## Features
 
