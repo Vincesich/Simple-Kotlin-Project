@@ -49,7 +49,12 @@ class Register : AppCompatActivity() {
             val user = UserData(0, firstName, lastName, username, email, phoneNumber, city, password, confirmPassword)
             db.addUser(user)
             Toast.makeText(this, "User registered successfully!", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this, Dashboard::class.java)
+
+            val userList = db.getAllUsers() // Fetch list of all users from SQLite database
+
+            val intent = Intent(this, UsersList::class.java).apply {
+                putExtra("userList", ArrayList(userList)) // Pass the list of users to the UsersList activity
+            }
             startActivity(intent)
         }
     }
