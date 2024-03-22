@@ -19,7 +19,7 @@ This is a simple Kotlin project that demonstrates basic functionality such as us
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/simple-kotlin-project.git
+   git clone https://github.com/Vincesich/simple-kotlin-project.git
    
 Open in Android Studio:
 Open the project in Android Studio and let it sync dependencies.
